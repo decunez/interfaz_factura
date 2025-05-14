@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura Electrónica</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>FACTURA ELECTRÓNICA</h1>
+            <p class="numero-factura">N° 001-001-000000123</p>
+        </header>
+
+        <!-- Sección 1: Datos de la empresa -->
+        <table class="tabla tabla-empresa">
+            <caption>Datos del Emisor</caption>
+            <tr>
+                <th>Razón Social:</th>
+                <td>TECNOLOGÍA AVANZADA S.A.</td>
+            </tr>
+            <tr>
+                <th>RUC:</th>
+                <td>1790012345001</td>
+            </tr>
+            <tr>
+                <th>Dirección Matriz:</th>
+                <td>Av. Principal 123 y Secundaria, Quito - Ecuador</td>
+            </tr>
+            <tr>
+                <th>Teléfono:</th>
+                <td>(02) 222-2222</td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td>ventas@tecnologia-avanzada.com</td>
+            </tr>
+            <tr>
+                <th>Fecha de Emisión:</th>
+                <td>13/05/2025</td>
+            </tr>
+        </table>
+
+        <!-- Sección 2: Datos del cliente -->
+        <table class="tabla tabla-cliente">
+            <caption>Datos del Cliente</caption>
+            <tr>
+                <th>Nombre/Razón Social:</th>
+                <td>DISTRIBUIDORA COMERCIAL XYZ</td>
+            </tr>
+            <tr>
+                <th>Identificación:</th>
+                <td>1798765432001</td>
+            </tr>
+            <tr>
+                <th>Dirección:</th>
+                <td>Calle Los Comerciantes 456, Guayaquil - Ecuador</td>
+            </tr>
+            <tr>
+                <th>Teléfono:</th>
+                <td>(04) 234-5678</td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td>compras@distribuidora-xyz.com</td>
+            </tr>
+        </table>
+
+        <!-- Sección 3: Listado de productos -->
+        <table class="tabla tabla-productos">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Descripción</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TA-1001</td>
+                    <td>Laptop Profesional i7 16GB RAM 512GB SSD</td>
+                    <td>2</td>
+                    <td>$1,250.00</td>
+                    <td>$2,500.00</td>
+                </tr>
+                <tr>
+                    <td>TA-2005</td>
+                    <td>Monitor LED 24" Full HD</td>
+                    <td>3</td>
+                    <td>$180.00</td>
+                    <td>$540.00</td>
+                </tr>
+                <tr>
+                    <td>TA-3010</td>
+                    <td>Teclado y Mouse Inalámbrico</td>
+                    <td>5</td>
+                    <td>$45.00</td>
+                    <td>$225.00</td>
+                </tr>
+                <tr>
+                    <td>TA-4015</td>
+                    <td>Disco Duro Externo 1TB</td>
+                    <td>2</td>
+                    <td>$75.00</td>
+                    <td>$150.00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" class="total-text">SUBTOTAL</td>
+                    <td class="total-number">$3,415.00</td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="total-text">IVA 12%</td>
+                    <td class="total-number">$409.80</td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="total-text">TOTAL</td>
+                    <td class="total-number">$3,824.80</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <!-- Sección 4: Información adicional -->
+        <table class="tabla tabla-adicional">
+            <caption>Información Adicional</caption>
+            <tr>
+                <th>Forma de Pago:</th>
+                <td>Transferencia</td>
+            </tr>
+            <tr>
+                <th>Cuenta Bancaria:</th>
+                <td>Banco del Pacífico - Cuenta Corriente #1234567890</td>
+            </tr>
+            <tr>
+                <th>Observaciones:</th>
+                <td>Entrega programada para el 20/05/2025</td>
+            </tr>
+            <tr class="pie-pagina">
+                <td colspan="2">
+                    <p>¡Gracias por su compra!</p>
+                    <p>Visite nuestro sitio web: <a href="https://www.tecnologia-avanzada.com">www.tecnologia-avanzada.com</a></p>
+                    <p class="leyenda">Esta factura es un comprobante electrónico autorizado por el SRI</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

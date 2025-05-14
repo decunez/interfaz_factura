@@ -1,0 +1,172 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #706e6e;
+    background-color: #d5ddec;
+    margin: 0;
+    padding: 20px;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #f12525;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: #33502c;
+    margin: 0;
+    font-size: 28px;
+}
+
+.numero-factura {
+    font-weight: bold;
+    color: #7f8c8d;
+    margin-top: 5px;
+}
+
+/* Estilos para todas las tablas */
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.tabla caption {
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    color: #2c3e50;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.tabla th, .tabla td {
+    padding: 12px 15px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Estilos específicos para cada tabla */
+
+/* Tabla Empresa */
+.tabla-empresa {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+}
+
+.tabla-empresa th {
+    width: 25%;
+    background-color: #e9ecef;
+    color: #495057;
+    font-weight: 600;
+}
+
+.tabla-empresa tr:nth-child(even) {
+    background-color: #f1f3f5;
+}
+
+/* Tabla Cliente */
+.tabla-cliente {
+    border: 1px solid #d1e7dd;
+}
+
+.tabla-cliente th {
+    width: 25%;
+    background-color: #d1e7dd;
+    color: #0f5132;
+    font-weight: 600;
+}
+
+.tabla-cliente tr:nth-child(even) {
+    background-color: #e8f2eb;
+}
+
+/* Tabla Productos */
+.tabla-productos {
+    border: 1px solid #ced4da;
+}
+
+.tabla-productos thead {
+    background-color: #343a40;
+    color: white;
+}
+
+.tabla-productos th {
+    font-weight: 600;
+}
+
+.tabla-productos tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.tabla-productos tfoot {
+    font-weight: bold;
+    background-color: #f1f3f5;
+}
+
+.tabla-productos td {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.total-text {
+    text-align: right;
+    padding-right: 20px !important;
+}
+
+.total-number {
+    text-align: right;
+    color: #2c3e50;
+}
+
+/* Tabla Adicional */
+.tabla-adicional {
+    border: 1px solid #cfe2ff;
+}
+
+.tabla-adicional th {
+    width: 20%;
+    background-color: #cfe2ff;
+    color: #084298;
+    font-weight: 600;
+}
+
+.tabla-adicional tr:nth-child(even) {
+    background-color: #e7f1ff;
+}
+
+.pie-pagina td {
+    text-align: center;
+    padding: 20px !important;
+    background-color: #f8f9fa !important;
+    border-top: 2px solid #3498db;
+}
+
+.pie-pagina p {
+    margin: 5px 0;
+}
+
+.pie-pagina a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.leyenda {
+    font-size: 12px;
+    color: #7f8c8d;
+    margin-top: 15px !important;
+    font-style: italic;
+}
